@@ -1,0 +1,416 @@
+@font-face {
+    font-family: notosans;
+    src: url("NotoSans-Black.ttf");
+  }
+  
+  .ok1 {
+    width: 1.75vw;
+    height: 1.25vw;
+  }
+  
+  .ok {
+    width: 1.55vw;
+    height: 1.4vw;
+  }
+  
+  .normlink {
+    color: grey;
+    text-decoration: underline;
+  }
+  
+  .footer {
+    margin-top: 23%;
+    background-image: linear-gradient(#081d30, #061522);
+    height: 10rem;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+  
+  .bakbutton {
+    border-radius: 8px;
+    background-color: #081d30;
+    color: #ffffff;
+    padding: 3em, 1.5em;
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+    position: absolute;
+    transform: translate(0%, 200%);
+  }
+  
+  .disbutton {
+    color: rgb(134, 204, 255);
+    transition: all 0.5s;
+  }
+  .disbutton:hover{
+    color: rgb(109, 167, 208);
+    transition: all 0.5s;
+  }
+  
+  .glitch {
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+      0.025em 0.04em 0 #fffc00;
+    animation: glitch 725ms infinite;
+  }
+  
+  .glitch span {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .glitch span:first-child {
+    animation: glitch 500ms infinite;
+    clip-path: polygon(0 0, 100% 0, 100% 35%, 0 35%);
+    transform: translate(-0.04em, -0.03em);
+    opacity: 0.75;
+  }
+  
+  .glitch span:last-child {
+    animation: glitch 375ms infinite;
+    clip-path: polygon(0 65%, 100% 65%, 100% 100%, 0 100%);
+    transform: translate(0.04em, 0.03em);
+    opacity: 0.75;
+  }
+  
+  @keyframes glitch {
+    0% {
+      text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+        0.025em 0.04em 0 #fffc00;
+    }
+    15% {
+      text-shadow: 0.05em 0 0 #00fffc, -0.03em -0.04em 0 #fc00ff,
+        0.025em 0.04em 0 #fffc00;
+    }
+    16% {
+      text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+        -0.05em -0.05em 0 #fffc00;
+    }
+    49% {
+      text-shadow: -0.05em -0.025em 0 #00fffc, 0.025em 0.035em 0 #fc00ff,
+        -0.05em -0.05em 0 #fffc00;
+    }
+    50% {
+      text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+        0 -0.04em 0 #fffc00;
+    }
+    99% {
+      text-shadow: 0.05em 0.035em 0 #00fffc, 0.03em 0 0 #fc00ff,
+        0 -0.04em 0 #fffc00;
+    }
+    100% {
+      text-shadow: -0.05em 0 0 #00fffc, -0.025em -0.04em 0 #fc00ff,
+        -0.04em -0.025em 0 #fffc00;
+    }
+  }
+  
+  html {
+    background-color: #061522;
+    font-size: 0.745vw;
+    font-family: "notosans", serif;
+    color: #ffffff;
+    justify-content: center;
+    scroll-behavior: smooth;
+  }
+  
+  /* width */
+  ::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #192f41;
+    border-radius: 200px;
+  }
+  
+  @keyframes slideInAnimation {
+    0% {
+      top: -100%;
+    }
+    100% {
+      top: 1%;
+    }
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    position: relative;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  @keyframes fadeInAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  .ownernav {
+    display: flex;
+    z-index: 3;
+    text-decoration: none;
+    align-items: bottom;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+    width: 750px;
+    margin: 0 auto;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    justify-content: left;
+    padding: 50px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 20%; /* Position the navbar at the top of the page */
+  
+    height: 20px;
+    background-color: #081d30;
+    width: 650px;
+    margin: 0 auto;
+    border-radius: 8px;
+    color: #ffffff;
+    animation: slideInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  
+  .nav-links a {
+    color: #ffffff;
+  }
+  .widget_recent_entries li {
+    border-bottom: none;
+    position: relative;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: none;
+  }
+  
+  a:active {
+    text-decoration: none;
+  }
+  
+  /* NAVBAR MENU */
+  .menu {
+    display: flex;
+    gap: 0.5em;
+    font-size: 1em;
+    transition: 0.3s ease;
+  }
+  
+  @keyframes rotateMenu {
+    0% {
+      transform: rotateX(-90deg);
+    }
+    70% {
+      transform: rotateX(20deg);
+    }
+    100% {
+      transform: rotateX(0deg);
+    }
+  }
+  
+  .menu li {
+    padding: 5px 15px;
+    position: relative;
+    transition: 0.3s ease;
+  }
+  /* DROPDOWN MENU */
+  .services {
+    display: flex;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+  
+    align-items: bottom;
+    justify-content: center;
+    position: relative; /* Set the navbar to fixed position */
+  
+    margin: auto;
+    transition: 0.3s ease;
+  }
+  .dropdown li {
+    padding: 1 0;
+    width: -1em;
+    text-align: center;
+  }
+  .dropdown li + li {
+    margin-top: 0px;
+  }
+  .menu li:hover {
+    background-color: #143f66;
+    border-radius: 5px;
+    transition: 0.3s ease;
+  }
+  
+  .dropdown {
+    display: table;
+    margin: auto;
+    background-color: #143f66;
+    padding: 0;
+    left: -7%;
+    justify-content: center;
+    position: absolute; /*WITH RESPECT TO PARENT*/
+    display: none;
+    margin: auto;
+    text-align: center;
+    border-radius: 8px;
+    top: 24px;
+  }
+  
+  .dropdown li:hover {
+    background-color: #1d568c;
+  }
+  .services:hover .dropdown {
+    animation: rotateMenu 300ms ease-in-out forwards;
+    transform-origin: top center;
+    display: inline-block;
+    pointer-events: auto;
+  }
+  .services:focus-within .dropdown {
+    animation: rotateMenu 300ms ease-in-out forwards;
+    transform-origin: top center;
+    display: inline-block;
+    pointer-events: auto;
+  }
+  
+  img {
+    width: 100%; /* need to overwrite inline dimensions */
+    height: auto;
+  }
+  h2 {
+    margin-bottom: 0.5em;
+  }
+  .grid-container {
+    margin-left: 20%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-gap: 1em;
+    width: 60%;
+    height: 10%;
+  }
+  
+  .grid-container2 {
+    margin-left: 30.5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-gap: 1em;
+    width: 60%;
+    height: 10%;
+  }
+  
+  /* hover styles */
+  .location-listing {
+    position: relative;
+  }
+  
+  .location-image {
+    line-height: 0;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .location-image img {
+    filter: blur(0px);
+    transition: filter 0.3s ease-in;
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+  }
+  
+  .location-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-decoration: none;
+    z-index: 1;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+    background: rgba(0, 0, 10, 0.4);
+    color: white;
+  
+    /* position the text in t’ middle*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .location-listing:hover .location-title {
+    opacity: 1;
+  }
+  
+  .location-listing:hover .location-image img {
+    filter: blur(10px);
+    transform: scale(1.2);
+  }
+  
+  .button {
+    background-color: rgb(25, 25, 25);
+    box-shadow: 0 5px 0 rgb(15, 15, 15);
+    color: white;
+    padding: 1em 1.5em;
+    z-index: 2;
+    margin-left: -20%;
+    width: 40%;
+    height: 10%;
+    transform: translate(-10%, -105%) rotate(0deg);
+    position: absolute;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  .contents {
+    text-decoration: none;
+    align-items: bottom;
+    justify-content: space-between;
+    position: relative;
+    text-align: center;
+  
+    margin: 0 auto;
+  }
+  
+  .contents h2 {
+    inline-size: 30%;
+  
+    margin: 0 auto;
+  }
+  
+  @media all and (max-width: 1199px) {
+    html {
+      font-family: "notosans", serif;
+    }
+  
+    .menu {
+      font-size: 1.3vw;
+    }
+  }
