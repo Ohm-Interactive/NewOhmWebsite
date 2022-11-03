@@ -214,7 +214,11 @@
   @media screen and (max-width: 750px){
     .navbar-alt,
     .navbar{
-      font-size: 0.7rem;
+      font-size: 1.2rem;
+      align-items: center;
+      text-decoration: none;
+      text-align: center;
+      justify-content: left;
     }
   }
   
