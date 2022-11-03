@@ -7,7 +7,7 @@
   <nav class="navbar">
     <!-- LOGO -->
     <div class="logo">
-      <a href="#Home">
+      <a href="/">
       <img
         src="OhmLogo.png"
         alt="Ohm"
@@ -16,6 +16,7 @@
       />
       </a>
     </div>
+    <div class="navbar-alt">
     <!-- NAVIGATION MENU -->
     <ul style="list-style: none" class="nav-links">
       <!-- USING CHECKBOX HACK -->
@@ -34,6 +35,7 @@
         </li>
       </div>
     </ul>
+  </div>
 
   </nav>
 </div>
@@ -78,4 +80,7 @@
 </div>
 {/if}
 <style>
+  .logo{
+    z-index: 999;
+  }
 </style>

@@ -192,6 +192,31 @@
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
   }
+  .navbar-alt{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    text-align: center;
+    justify-content: center;
+    padding: 50px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 20%; /* Position the navbar at the top of the page */
+  
+    height: 20px;
+    width: 535px;
+    margin: 0 auto;
+    border-radius: 8px;
+    color: #ffffff;
+    animation: slideInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+  }
+  @media screen and (max-width: 750px){
+    .navbar-alt,
+    .navbar{
+      font-size: 0.7rem;
+    }
+  }
   
   .nav-links a {
     color: #ffffff;
