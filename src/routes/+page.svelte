@@ -244,6 +244,25 @@
           </div>
         </div>
       </article>
+      <article id="69420" class="location-listing">
+        <a
+          class="location-title"
+          href="https://discord.gg/TggYZCYkuC"
+        >
+          Hot Choclate
+        </a>
+
+        <div class="location-image">
+          <div>
+            <img
+              width="200"
+              height="200"
+              src=   "HotChoclate.png"
+              alt="Hot Choclate"
+            />
+          </div>
+        </div>
+      </article>
       
     </div>
     <!-- end grid container -->
