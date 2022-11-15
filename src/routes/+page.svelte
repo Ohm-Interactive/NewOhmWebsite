@@ -263,6 +263,25 @@
           </div>
         </div>
       </article>
+      <article id="42069" class="location-listing">
+        <a
+          class="location-title"
+          href="https://www.youtube.com/channel/UCOFMPOxqzCpNJ4AltUkRitg/featured"
+        >
+        J の 7
+        </a>
+
+        <div class="location-image">
+          <div>
+            <img
+              width="200"
+              height="200"
+              src=   "ManTheGerman.png"
+              alt="J の 7"
+            />
+          </div>
+        </div>
+      </article>
       
     </div>
     <!-- end grid container -->
