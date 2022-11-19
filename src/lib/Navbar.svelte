@@ -2,7 +2,7 @@
   import {page} from '$app/stores'
   console.log($page.routeId)
 </script>
-{#if $page.routeId === "/Orchard" || $page.routeId === "/StickmanSandbox"}
+{#if $page.routeId === "/Orchard" || $page.routeId === "/StickmanSandbox" || $page.routeId == "/BuildScript"}
 <div class="ownernav">
   <nav class="navbar">
     <!-- LOGO -->

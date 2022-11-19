@@ -358,6 +358,14 @@
     width: 60%;
     height: 10%;
   }
+  .grid-container3 {
+    margin-left: 42.5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-gap: 1em;
+    width: 60%;
+    height: 10%;
+  }
   
   /* hover styles */
   .location-listing {
