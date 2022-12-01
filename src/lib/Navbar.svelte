@@ -30,7 +30,8 @@
           <!-- DROPDOWN MENU -->
           <ul class="dropdown" style="list-style: none">
             <li> <a href="/Orchard">ORCHARD</a> </li>
-            <li><a href="StickmanSandbox">Stickman Sandbox</a></li>
+            <li><a href="/StickmanSandbox">Stickman Sandbox</a></li>
+            <li><a href="/BuildScript">Build Script</a></li>
           </ul>
         </li>
       </div>
@@ -66,7 +67,8 @@
           <!-- DROPDOWN MENU -->
           <ul class="dropdown" style="list-style: none">
             <li> <a href="/Orchard">ORCHARD</a> </li>
-            <li><a href="StickmanSandbox">Stickman Sandbox</a></li>
+            <li><a href="/StickmanSandbox">Stickman Sandbox</a></li>
+            <li><a href="/BuildScript">Build Script</a></li>
           </ul>
         </li>
         <li><a href="#About-Us">About</a></li>
