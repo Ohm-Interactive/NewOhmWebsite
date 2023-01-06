@@ -301,6 +301,25 @@
           </div>
         </div>
       </article>
+      <article id="12242022" class="location-listing">
+        <a
+          class="location-title"
+          href="https://www.youtube.com/channel/UCyI1vWhDDRv_mM0zxPi_orA"
+        >
+        Stickm1n
+        </a>
+
+        <div class="location-image">
+          <div>
+            <img
+              width="200"
+              height="200"
+              src=   "Stickm1n.png"
+              alt="Stickm1n"
+            />
+          </div>
+        </div>
+      </article>
       <article id="162023" class="location-listing">
         <p
           class="location-title-no-link"
