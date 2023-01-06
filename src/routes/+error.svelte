@@ -1,8 +1,5 @@
 <script>
     import {page} from '$app/stores'
-    function takeMeBack(){
-        history.back()
-    }
 </script>
 <div>
     {#if $page.status === 404}
@@ -18,7 +15,7 @@
                 <span aria-hidden="true">Page Not Found</span>
             </p>
         </div>
-        <a href="/" class="bakbutton">Take me Back!</a>
+        <a href="/" class="backbutton">Take me Back!</a>
     {/if}
 </div>
 <style>
