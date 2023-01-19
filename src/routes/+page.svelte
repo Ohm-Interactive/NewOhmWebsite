@@ -244,25 +244,6 @@
           </div>
         </div>
       </article>
-      <article id="69420" class="location-listing">
-        <a
-          class="location-title"
-          href="https://discord.gg/TggYZCYkuC"
-        >
-          Hot Choclate
-        </a>
-
-        <div class="location-image">
-          <div>
-            <img
-              width="200"
-              height="200"
-              src=   "HotChoclate.png"
-              alt="Hot Choclate"
-            />
-          </div>
-        </div>
-      </article>
       <article id="42069" class="location-listing">
         <a
           class="location-title"
@@ -377,7 +358,7 @@
       </article>
    
     </div>
-    <div class="grid-container3">
+    <div class="grid-container2">
       <article id="3069" class="location-listing">
         <a
           class="location-title"
@@ -393,6 +374,25 @@
               height="200"
               src="BuildScript.png"
               alt="Build Script Logo"
+            />
+          </div>
+        </div>
+      </article>
+      <article id="3069" class="location-listing">
+        <a
+          class="location-title"
+          href="/VeritasLimina"
+        >
+          Veritas Limina
+        </a>
+        <br>
+        <div class="location-image">
+          <div>
+            <img
+              width="200"
+              height="200"
+              src="VeritasLimina.png"
+              alt="Veritas Limina Logo"
             />
           </div>
         </div>

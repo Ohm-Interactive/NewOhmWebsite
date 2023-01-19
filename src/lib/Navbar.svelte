@@ -2,7 +2,7 @@
   import {page} from '$app/stores'
   console.log($page.routeId)
 </script>
-{#if $page.routeId === "/Orchard" || $page.routeId === "/StickmanSandbox" || $page.routeId == "/BuildScript"}
+{#if $page.routeId === "/Orchard" || $page.routeId === "/StickmanSandbox" || $page.routeId == "/BuildScript" || $page.routeId == "/VeritasLimina"}
 <div class="ownernav">
   <nav class="navbar">
     <!-- LOGO -->
@@ -32,6 +32,7 @@
             <li> <a href="/Orchard">ORCHARD</a> </li>
             <li><a href="/StickmanSandbox">Stickman Sandbox</a></li>
             <li><a href="/BuildScript">Build Script</a></li>
+            <li><a href="/VeritasLimina">Veritas Limina</a></li>
           </ul>
         </li>
       </div>
@@ -69,6 +70,7 @@
             <li> <a href="/Orchard">ORCHARD</a> </li>
             <li><a href="/StickmanSandbox">Stickman Sandbox</a></li>
             <li><a href="/BuildScript">Build Script</a></li>
+            <li><a href="/VeritasLimina">Veritas Limina</a></li>
           </ul>
         </li>
         <li><a href="#About-Us">About</a></li>
